@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+
+  font-size: small;
+  color: light-dark(#fff, #212121);
+  background-color: light-dark(#fff, #212121);
+}
+
+body::selection {
+  background-color: light-dark(#212121, #fff);
+}
