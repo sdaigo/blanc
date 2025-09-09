@@ -1,5 +1,3 @@
-import "./index.css";
-
 console.log("This page intentionally left blank.");
 
 window.addEventListener(
